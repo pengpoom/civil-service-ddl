@@ -4,9 +4,9 @@
 
 ## 页面
 
-- GitHub Pages: https://just-agent.github.io/civil-service-ddl/
+- GitHub Pages: https://pengpoom.github.io/civil-service-ddl/
 - Hub: https://just-agent.github.io/just-ddl/
-- Repo: https://github.com/Just-Agent/civil-service-ddl
+- Repo: https://github.com/pengpoom/civil-service-ddl
 
 ## 数据概览
 
