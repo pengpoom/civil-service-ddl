@@ -164,7 +164,7 @@ async function parseBeijingPublicRecruitment(source, listHtml) {
         tags: buildTags(title),
         url: candidate.url,
         status: statusForDeadline(deadline.iso),
-        description: `北京市事业单位公开招聘公告，报名截止时间由北京市人力资源和社会保障局公开招聘公告页解析；具体岗位、资格条件和考试安排以官方公告及附件为准。`,
+        description: `北京公开招聘公告，已解析报名截止时间。`,
         stage: '报名截止',
         source: source.name,
         type: 'program',

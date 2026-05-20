@@ -69,6 +69,9 @@
       background: #ffffff;
       padding: 18px;
       box-shadow: 0 12px 36px -32px #4f46e5;
+      display: flex;
+      flex-direction: column;
+      min-height: 250px;
     }
     h2 {
       margin: 0;
@@ -109,6 +112,18 @@
       font-size: 12px;
       font-weight: 900;
     }
+    .description {
+      margin-bottom: 0;
+    }
+    .source {
+      margin-top: 10px;
+      margin-bottom: 0;
+    }
+    .card-link {
+      margin-top: auto;
+      margin-bottom: 0;
+      padding-top: 16px;
+    }
   </style>
 </head>
 <body>
@@ -116,7 +131,7 @@
     <div class="wrap">
       <div class="eyebrow">Just-DDL Network</div>
       <h1>考公考编 DDL</h1>
-      <p class="lead">公务员、事业单位、选调生、三支一扶和基层项目相关报名、笔试、面试节点。真实公告优先展示报名截止时间，Source board 入口继续以官方公告为准。</p>
+      <p class="lead">公务员、事业单位、选调生、三支一扶和基层项目相关报名、笔试、面试节点。真实公告优先展示报名截止时间，无截止时间的开放入口以官方公告为准。</p>
       <div class="meta">
         <span class="pill" id="count">加载中</span>
         <span class="pill" id="parsed-count">真实公告加载中</span>
@@ -138,10 +153,10 @@
       <article>
         <h2>${item.title}</h2>
         <span class="status">${item.isDatePlaceholder ? '待官方公告' : item.dateRange}</span>
-        <p>${item.description || ''}</p>
-        <p><strong>来源：</strong>${item.source}</p>
+        <p class="description">${item.description || ''}</p>
+        <p class="source"><strong>来源：</strong>${item.source}</p>
         <div class="tags">${item.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}</div>
-        <p><a href="${item.url}" target="_blank" rel="noopener noreferrer">${item.isDatePlaceholder ? '打开官方入口' : '查看官方公告'}</a></p>
+        <p class="card-link"><a href="${item.url}" target="_blank" rel="noopener noreferrer">${item.isDatePlaceholder ? '打开官方入口' : '查看官方公告'}</a></p>
       </article>
     `).join('');
   </script>

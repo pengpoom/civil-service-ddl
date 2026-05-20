@@ -6,7 +6,7 @@
     {
       "id": "national-civil-service",
       "name": "国家公务员局",
-      "url": "https://bm.scs.gov.cn",
+      "url": "http://bm.scs.gov.cn/kl2026",
       "adapter": "nationalCivilServiceAdapter",
       "confidence": "official"
     },
@@ -49,7 +49,7 @@
   "itemSources": [
     {
       "name": "国家公务员局",
-      "url": "https://bm.scs.gov.cn",
+      "url": "http://subb.scs.gov.cn/lx2026",
       "type": "item-source",
       "confidence": "official",
       "note": "国考、中央机关公开遴选和公开选调入口；具体日期以公告为准。"
