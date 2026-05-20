@@ -1,0 +1,82 @@
+{
+  "topicId": "civil-service-ddl",
+  "generatedAt": "2026-05-20T09:12:52.906Z",
+  "adapterCount": 5,
+  "reachableCount": 4,
+  "parsedItemCount": 0,
+  "previousParsedItemCount": null,
+  "parserHealthy": true,
+  "parserDropOk": true,
+  "adapters": [
+    {
+      "sourceId": "national-civil-service",
+      "source": "国家公务员局",
+      "url": "https://bm.scs.gov.cn",
+      "items": [],
+      "reachable": false,
+      "httpStatus": null,
+      "finalUrl": null,
+      "title": null,
+      "contentLength": null,
+      "fetchedAt": "2026-05-20T09:12:48.316Z",
+      "note": "Source fetch failed: fetch failed. Curated data/items.json preserved.",
+      "error": "fetch failed"
+    },
+    {
+      "sourceId": "beijing-personnel-exam",
+      "source": "北京市人事考试服务频道",
+      "url": "https://rsj.beijing.gov.cn/ywsite/bjpta/",
+      "items": [],
+      "reachable": true,
+      "httpStatus": 200,
+      "finalUrl": "https://rsj.beijing.gov.cn/ywsite/bjpta/",
+      "title": "人事考试服务频道",
+      "contentLength": 148066,
+      "fetchedAt": "2026-05-20T09:12:48.358Z",
+      "note": "Source reachable. Curated data/items.json preserved until item parser is implemented.",
+      "error": null
+    },
+    {
+      "sourceId": "guangdong-personnel-exam",
+      "source": "广东人事考试网",
+      "url": "https://rsks.gd.gov.cn/",
+      "items": [],
+      "reachable": true,
+      "httpStatus": 200,
+      "finalUrl": "https://rsks.gd.gov.cn/",
+      "title": "广东省人事考试局网站",
+      "contentLength": 92600,
+      "fetchedAt": "2026-05-20T09:12:48.359Z",
+      "note": "Source reachable. Curated data/items.json preserved until item parser is implemented.",
+      "error": null
+    },
+    {
+      "sourceId": "china-job",
+      "source": "中国公共招聘网",
+      "url": "https://chinajob.mohrss.gov.cn/",
+      "items": [],
+      "reachable": true,
+      "httpStatus": 200,
+      "finalUrl": "https://chinajob.mohrss.gov.cn/",
+      "title": "中国就业网 - 人力资源和社会保障部大型就业培训门户网站",
+      "contentLength": 124400,
+      "fetchedAt": "2026-05-20T09:12:48.360Z",
+      "note": "Source reachable. Curated data/items.json preserved until item parser is implemented.",
+      "error": null
+    },
+    {
+      "sourceId": "shaanxi-personnel-exam",
+      "source": "陕西人事考试网",
+      "url": "https://www.sxrsks.cn/",
+      "items": [],
+      "reachable": true,
+      "httpStatus": 200,
+      "finalUrl": "https://www.sxrsks.cn/",
+      "title": "陕西人事考试网",
+      "contentLength": 1155,
+      "fetchedAt": "2026-05-20T09:12:48.361Z",
+      "note": "Source reachable. Curated data/items.json preserved until item parser is implemented.",
+      "error": null
+    }
+  ]
+}

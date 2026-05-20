@@ -1,0 +1,122 @@
+[
+  {
+    "id": "civil-service-ddl-national-civil-service-source-board-2026-10-15",
+    "title": "中央机关及其直属机构公务员考试公告与报名入口",
+    "deadline": "2026-10-15T23:59:59+08:00",
+    "dateRange": "以官方公告为准",
+    "location": "中国",
+    "isOnline": true,
+    "tags": [
+      "公务员",
+      "国考",
+      "报名"
+    ],
+    "url": "https://bm.scs.gov.cn",
+    "status": "upcoming",
+    "description": "已登记中央机关及其直属机构考试录用公务员专题入口；具体报名、资格审查、笔试和面试时间需以官方公告为准。",
+    "stage": "Source board",
+    "source": "国家公务员局",
+    "type": "program",
+    "isDatePlaceholder": true
+  },
+  {
+    "id": "civil-service-ddl-central-selection-source-board-2026-10-30",
+    "title": "中央机关公开遴选和公开选调公务员入口",
+    "deadline": "2026-10-30T23:59:59+08:00",
+    "dateRange": "以官方公告为准",
+    "location": "中国",
+    "isOnline": true,
+    "tags": [
+      "公务员",
+      "遴选",
+      "选调"
+    ],
+    "url": "https://bm.scs.gov.cn",
+    "status": "upcoming",
+    "description": "已登记中央机关公开遴选、公开选调相关公告入口；具体职位、报名和考试安排需以官方公告为准。",
+    "stage": "Source board",
+    "source": "国家公务员局",
+    "type": "program",
+    "isDatePlaceholder": true
+  },
+  {
+    "id": "civil-service-ddl-beijing-public-service-source-board-2026-11-15",
+    "title": "北京市公务员与事业单位招录公告入口",
+    "deadline": "2026-11-15T23:59:59+08:00",
+    "dateRange": "以官方公告为准",
+    "location": "北京",
+    "isOnline": true,
+    "tags": [
+      "公务员",
+      "事业单位",
+      "报名"
+    ],
+    "url": "https://rsj.beijing.gov.cn/ywsite/bjpta/",
+    "status": "upcoming",
+    "description": "已登记北京市人事考试服务频道入口；具体招录公告、报名窗口、准考证打印和考试时间需以官方页面为准。",
+    "stage": "Source board",
+    "source": "北京市人事考试服务频道",
+    "type": "program",
+    "isDatePlaceholder": true
+  },
+  {
+    "id": "civil-service-ddl-guangdong-public-service-source-board-2026-11-30",
+    "title": "广东省公务员与事业单位招录公告入口",
+    "deadline": "2026-11-30T23:59:59+08:00",
+    "dateRange": "以官方公告为准",
+    "location": "广东",
+    "isOnline": true,
+    "tags": [
+      "公务员",
+      "事业单位",
+      "招聘"
+    ],
+    "url": "https://rsks.gd.gov.cn/",
+    "status": "upcoming",
+    "description": "已登记广东人事考试网入口；具体省考、事业单位招聘、报名和考试安排需以官方公告为准。",
+    "stage": "Source board",
+    "source": "广东人事考试网",
+    "type": "program",
+    "isDatePlaceholder": true
+  },
+  {
+    "id": "civil-service-ddl-public-institution-source-board-2026-12-15",
+    "title": "事业单位公开招聘公告入口",
+    "deadline": "2026-12-15T23:59:59+08:00",
+    "dateRange": "以官方公告为准",
+    "location": "中国",
+    "isOnline": true,
+    "tags": [
+      "事业单位",
+      "招聘",
+      "报名"
+    ],
+    "url": "https://chinajob.mohrss.gov.cn/",
+    "status": "upcoming",
+    "description": "已登记中国公共招聘网入口，用于后续跟踪事业单位公开招聘与公共招聘公告；具体岗位、报名和考试节点需以官方公告为准。",
+    "stage": "Source board",
+    "source": "中国公共招聘网",
+    "type": "program",
+    "isDatePlaceholder": true
+  },
+  {
+    "id": "civil-service-ddl-shaanxi-public-service-source-board-2026-12-31",
+    "title": "陕西省公务员与事业单位招录公告入口",
+    "deadline": "2026-12-31T23:59:59+08:00",
+    "dateRange": "以官方公告为准",
+    "location": "陕西",
+    "isOnline": true,
+    "tags": [
+      "公务员",
+      "事业单位",
+      "招聘"
+    ],
+    "url": "https://www.sxrsks.cn/",
+    "status": "upcoming",
+    "description": "已登记陕西人事考试网入口；具体公务员录用、事业单位招聘和考试安排需以官方公告为准。",
+    "stage": "Source board",
+    "source": "陕西人事考试网",
+    "type": "program",
+    "isDatePlaceholder": true
+  }
+]

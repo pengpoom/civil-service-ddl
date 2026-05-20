@@ -1,0 +1,11 @@
+{
+  "name": "civil-service-ddl",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "crawl": "node scripts/crawl-sources.mjs",
+    "validate": "node scripts/validate-data.mjs",
+    "link-check": "node scripts/link-check.mjs"
+  }
+}

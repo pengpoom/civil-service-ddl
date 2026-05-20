@@ -1,0 +1,48 @@
+name: Update DDL Data
+
+on:
+  schedule:
+    - cron: '31 2 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    env:
+      JUST_DDL_HUB_OWNER: Just-Agent
+      JUST_DDL_HUB_REPO: just-ddl
+      DISPATCH_TOKEN: ${{ secrets.JUST_DDL_DISPATCH_TOKEN }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+      - run: node scripts/crawl-sources.mjs
+      - run: node scripts/validate-data.mjs
+      - run: node scripts/link-check.mjs
+        env:
+          LINK_CHECK_TIMEOUT_MS: '3500'
+          LINK_CHECK_CONCURRENCY: '8'
+      - name: Commit updated data
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: 'data: update ddl crawl results'
+          file_pattern: 'data/*.json'
+      - name: Notify Just-DDL Hub
+        if: ${{ env.DISPATCH_TOKEN != '' }}
+        env:
+          GH_TOKEN: ${{ env.DISPATCH_TOKEN }}
+        run: |
+          gh api "repos/${JUST_DDL_HUB_OWNER}/${JUST_DDL_HUB_REPO}/dispatches" \
+            --method POST \
+            -f event_type=topic-updated \
+            -f client_payload[topic_id]="${GITHUB_REPOSITORY#*/}" \
+            -f client_payload[source_repo]="${GITHUB_REPOSITORY}" \
+            -f client_payload[source_sha]="${GITHUB_SHA}" \
+            -f client_payload[run_id]="${GITHUB_RUN_ID}"
+      - name: Dispatch token not configured
+        if: ${{ env.DISPATCH_TOKEN == '' }}
+        run: echo "::notice::JUST_DDL_DISPATCH_TOKEN is not configured; Hub sync will wait for its scheduled workflow."

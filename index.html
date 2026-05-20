@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>考公考编 DDL</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f8fafc;
+      color: #0f172a;
+    }
+    body {
+      margin: 0;
+    }
+    header {
+      border-bottom: 1px solid #e2e8f0;
+      background: #ffffff;
+    }
+    .wrap {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 28px 20px;
+    }
+    .eyebrow {
+      color: #4f46e5;
+      font-size: 12px;
+      font-weight: 900;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 12px 0 0;
+      font-size: clamp(32px, 5vw, 56px);
+      line-height: 1;
+    }
+    .lead {
+      max-width: 760px;
+      margin-top: 18px;
+      color: #475569;
+      font-size: 16px;
+      line-height: 1.8;
+    }
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 22px;
+    }
+    .pill {
+      border: 1px solid #c7d2fe;
+      border-radius: 999px;
+      background: #eef2ff;
+      color: #3730a3;
+      padding: 8px 12px;
+      font-size: 12px;
+      font-weight: 800;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 14px;
+      margin-top: 22px;
+    }
+    article {
+      border: 1px solid #e2e8f0;
+      border-radius: 24px;
+      background: #ffffff;
+      padding: 18px;
+      box-shadow: 0 12px 36px -32px #4f46e5;
+    }
+    h2 {
+      margin: 0;
+      font-size: 16px;
+      line-height: 1.4;
+    }
+    p {
+      color: #64748b;
+      font-size: 13px;
+      line-height: 1.7;
+    }
+    a {
+      color: #4f46e5;
+      font-weight: 800;
+      text-decoration: none;
+    }
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 12px;
+    }
+    .tag {
+      border-radius: 999px;
+      background: #f1f5f9;
+      color: #475569;
+      padding: 5px 8px;
+      font-size: 11px;
+      font-weight: 700;
+    }
+    .status {
+      display: inline-flex;
+      margin-top: 12px;
+      border-radius: 999px;
+      background: #fffbeb;
+      color: #b45309;
+      padding: 6px 10px;
+      font-size: 12px;
+      font-weight: 900;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="eyebrow">Just-DDL Network</div>
+      <h1>考公考编 DDL</h1>
+      <p class="lead">公务员、事业单位、选调生、三支一扶和基层项目相关报名、笔试、面试节点。当前为官方入口型 Source board 数据，具体时间以官方公告为准。</p>
+      <div class="meta">
+        <span class="pill" id="count">加载中</span>
+        <span class="pill">待官方公告</span>
+        <a class="pill" href="https://just-agent.github.io/just-ddl/">返回 Hub</a>
+      </div>
+    </div>
+  </header>
+  <main class="wrap">
+    <div class="grid" id="items"></div>
+  </main>
+  <script type="module">
+    const response = await fetch('./data/items.json');
+    const items = await response.json();
+    document.querySelector('#count').textContent = `${items.length} 条入口`;
+    const root = document.querySelector('#items');
+    root.innerHTML = items.map(item => `
+      <article>
+        <h2>${item.title}</h2>
+        <span class="status">${item.isDatePlaceholder ? '待官方公告' : item.dateRange}</span>
+        <p>${item.description || ''}</p>
+        <p><strong>来源：</strong>${item.source}</p>
+        <div class="tags">${item.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}</div>
+        <p><a href="${item.url}" target="_blank" rel="noopener noreferrer">打开官方入口</a></p>
+      </article>
+    `).join('');
+  </script>
+</body>
+</html>

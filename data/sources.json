@@ -1,0 +1,79 @@
+{
+  "topicId": "civil-service-ddl",
+  "generatedAt": "2026-05-20T09:00:00.000Z",
+  "sourcePolicy": "Chinese-first display. Source board items use placeholder dates until official announcements are parsed into real deadlines.",
+  "sourceFamilies": [
+    {
+      "id": "national-civil-service",
+      "name": "国家公务员局",
+      "url": "https://bm.scs.gov.cn",
+      "adapter": "nationalCivilServiceAdapter",
+      "confidence": "official"
+    },
+    {
+      "id": "beijing-personnel-exam",
+      "name": "北京市人事考试服务频道",
+      "url": "https://rsj.beijing.gov.cn/ywsite/bjpta/",
+      "adapter": "beijingPersonnelExamAdapter",
+      "confidence": "official"
+    },
+    {
+      "id": "guangdong-personnel-exam",
+      "name": "广东人事考试网",
+      "url": "https://rsks.gd.gov.cn/",
+      "adapter": "guangdongPersonnelExamAdapter",
+      "confidence": "official"
+    },
+    {
+      "id": "china-job",
+      "name": "中国公共招聘网",
+      "url": "https://chinajob.mohrss.gov.cn/",
+      "adapter": "chinaJobAdapter",
+      "confidence": "official-or-public-service-entry"
+    },
+    {
+      "id": "shaanxi-personnel-exam",
+      "name": "陕西人事考试网",
+      "url": "https://www.sxrsks.cn/",
+      "adapter": "shaanxiPersonnelExamAdapter",
+      "confidence": "official"
+    }
+  ],
+  "itemSources": [
+    {
+      "name": "国家公务员局",
+      "url": "https://bm.scs.gov.cn",
+      "type": "item-source",
+      "confidence": "official",
+      "note": "国考、中央机关公开遴选和公开选调入口；具体日期以公告为准。"
+    },
+    {
+      "name": "北京市人事考试服务频道",
+      "url": "https://rsj.beijing.gov.cn/ywsite/bjpta/",
+      "type": "item-source",
+      "confidence": "official",
+      "note": "北京地区公务员和事业单位招录考试入口；具体日期以公告为准。"
+    },
+    {
+      "name": "广东人事考试网",
+      "url": "https://rsks.gd.gov.cn/",
+      "type": "item-source",
+      "confidence": "official",
+      "note": "广东地区公务员和事业单位招录考试入口；具体日期以公告为准。"
+    },
+    {
+      "name": "中国公共招聘网",
+      "url": "https://chinajob.mohrss.gov.cn/",
+      "type": "item-source",
+      "confidence": "official-or-public-service-entry",
+      "note": "公共招聘与事业单位公开招聘入口；具体日期以公告为准。"
+    },
+    {
+      "name": "陕西人事考试网",
+      "url": "https://www.sxrsks.cn/",
+      "type": "item-source",
+      "confidence": "official",
+      "note": "陕西地区公务员和事业单位招录考试入口；具体日期以公告为准。"
+    }
+  ]
+}
