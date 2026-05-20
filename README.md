@@ -12,13 +12,15 @@
 
 | 指标 | 数值 |
 | --- | ---: |
-| 当前事件 | 6 |
-| 来源族 | 5 |
-| 当前状态 | Source board 种子数据 |
+| 当前记录 | 27 |
+| 真实公告 | 21 |
+| Source board 入口 | 6 |
+| 来源族 | 6 |
+| 当前状态 | 北京公开招聘 parser + Source board 种子数据 |
 
 ## 数据说明
 
-当前数据采用 Source board 模式：先登记官方入口，`deadline` 仅用于排序和数据契约占位，页面应通过 `isDatePlaceholder: true` 显示“待官方公告”，不应展示倒计时。
+当前数据采用真实公告和 Source board 混合模式：北京公开招聘来源已由 crawler 解析公告正文中的报名截止时间；其他来源先登记官方入口，`deadline` 仅用于排序和数据契约占位，页面应通过 `isDatePlaceholder: true` 显示“待官方公告”，不应展示倒计时。
 
 后续 crawler 解析出真实公告时间后，再将对应条目改为真实 `deadline`，并移除 `isDatePlaceholder`。
 
@@ -26,7 +28,7 @@
 
 - `data/items.json`: DDL 条目，每条事件包含 `deadline`、`url`、`source`。
 - `data/sources.json`: 官方来源和入口清单。
-- `scripts/crawl-sources.mjs`: source reachability crawler；解析器完善前保留当前 `data/items.json`。
+- `scripts/crawl-sources.mjs`: source-specific crawler；当前支持北京市公开招聘公告报名截止时间解析，失败时保留当前 `data/items.json`。
 - `scripts/validate-data.mjs`: 数据质量校验。
 - `scripts/link-check.mjs`: 链接检查，默认 warning-only，设置 `STRICT_LINK_CHECK=1` 后严格失败。
 

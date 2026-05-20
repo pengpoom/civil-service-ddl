@@ -116,10 +116,10 @@
     <div class="wrap">
       <div class="eyebrow">Just-DDL Network</div>
       <h1>考公考编 DDL</h1>
-      <p class="lead">公务员、事业单位、选调生、三支一扶和基层项目相关报名、笔试、面试节点。当前为官方入口型 Source board 数据，具体时间以官方公告为准。</p>
+      <p class="lead">公务员、事业单位、选调生、三支一扶和基层项目相关报名、笔试、面试节点。真实公告优先展示报名截止时间，Source board 入口继续以官方公告为准。</p>
       <div class="meta">
         <span class="pill" id="count">加载中</span>
-        <span class="pill">待官方公告</span>
+        <span class="pill" id="parsed-count">真实公告加载中</span>
         <a class="pill" href="https://just-agent.github.io/just-ddl/">返回 Hub</a>
       </div>
     </div>
@@ -130,7 +130,9 @@
   <script type="module">
     const response = await fetch('./data/items.json');
     const items = await response.json();
-    document.querySelector('#count').textContent = `${items.length} 条入口`;
+    const parsedItems = items.filter(item => !item.isDatePlaceholder);
+    document.querySelector('#count').textContent = `${items.length} 条记录`;
+    document.querySelector('#parsed-count').textContent = `${parsedItems.length} 条真实公告`;
     const root = document.querySelector('#items');
     root.innerHTML = items.map(item => `
       <article>
@@ -139,7 +141,7 @@
         <p>${item.description || ''}</p>
         <p><strong>来源：</strong>${item.source}</p>
         <div class="tags">${item.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}</div>
-        <p><a href="${item.url}" target="_blank" rel="noopener noreferrer">打开官方入口</a></p>
+        <p><a href="${item.url}" target="_blank" rel="noopener noreferrer">${item.isDatePlaceholder ? '打开官方入口' : '查看官方公告'}</a></p>
       </article>
     `).join('');
   </script>

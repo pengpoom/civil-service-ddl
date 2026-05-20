@@ -18,6 +18,13 @@
       "confidence": "official"
     },
     {
+      "id": "beijing-public-recruitment",
+      "name": "北京市人力资源和社会保障局公开招聘",
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/",
+      "adapter": "beijingPublicRecruitmentAdapter",
+      "confidence": "official"
+    },
+    {
       "id": "guangdong-personnel-exam",
       "name": "广东人事考试网",
       "url": "https://rsks.gd.gov.cn/",
@@ -53,6 +60,13 @@
       "type": "item-source",
       "confidence": "official",
       "note": "北京地区公务员和事业单位招录考试入口；具体日期以公告为准。"
+    },
+    {
+      "name": "北京市人力资源和社会保障局公开招聘",
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/",
+      "type": "item-source",
+      "confidence": "official",
+      "note": "北京地区事业单位公开招聘公告列表；crawler 解析公告正文中的报名截止时间。"
     },
     {
       "name": "广东人事考试网",
