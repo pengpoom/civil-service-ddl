@@ -120,70 +120,10 @@
     "isDatePlaceholder": true
   },
   {
-    "id": "civil-service-ddl-beijing-public-recruitment-923da09855",
-    "title": "北京财贸职业学院2026年公开招聘公告（第三批）",
-    "deadline": "2026-09-03T16:00:00+08:00",
-    "dateRange": "报名截止：2026年9月3日 16:00",
-    "location": "北京",
-    "isOnline": true,
-    "tags": [
-      "事业单位",
-      "招聘",
-      "报名"
-    ],
-    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260731_4803134.html",
-    "status": "upcoming",
-    "description": "北京公开招聘公告，已解析报名截止时间。",
-    "stage": "报名截止",
-    "source": "北京市人力资源和社会保障局公开招聘",
-    "type": "program",
-    "publishedAt": "2026-07-31"
-  },
-  {
-    "id": "civil-service-ddl-beijing-public-recruitment-35d3de1aa2",
-    "title": "北京经济管理职业学院（北京经理学院）2026年公开招聘（第二批）公告",
-    "deadline": "2026-08-26T12:00:00+08:00",
-    "dateRange": "报名截止：2026年8月26日 12:00",
-    "location": "北京",
-    "isOnline": true,
-    "tags": [
-      "事业单位",
-      "招聘",
-      "报名"
-    ],
-    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260731_4803057.html",
-    "status": "upcoming",
-    "description": "北京公开招聘公告，已解析报名截止时间。",
-    "stage": "报名截止",
-    "source": "北京市人力资源和社会保障局公开招聘",
-    "type": "program",
-    "publishedAt": "2026-07-31"
-  },
-  {
-    "id": "civil-service-ddl-beijing-public-recruitment-b607a8e94e",
-    "title": "首都经济贸易大学2026年高水平人才引进公告（第二批）",
-    "deadline": "2026-09-30T11:00:00+08:00",
-    "dateRange": "报名截止：2026年9月30日 11:00",
-    "location": "北京",
-    "isOnline": true,
-    "tags": [
-      "事业单位",
-      "招聘",
-      "报名"
-    ],
-    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260731_4803009.html",
-    "status": "upcoming",
-    "description": "北京公开招聘公告，已解析报名截止时间。",
-    "stage": "报名截止",
-    "source": "北京市人力资源和社会保障局公开招聘",
-    "type": "program",
-    "publishedAt": "2026-07-31"
-  },
-  {
-    "id": "civil-service-ddl-beijing-public-recruitment-cb2fc67ab7",
-    "title": "首都医科大学人才引进公告（第一批）",
-    "deadline": "2026-08-07T23:59:00+08:00",
-    "dateRange": "报名截止：2026年8月7日 23:59",
+    "id": "civil-service-ddl-beijing-public-recruitment-a04d2bef38",
+    "title": "2026年丰台区卫生健康委直属事业单位第三批公开招聘医疗卫生专业工作人员公告",
+    "deadline": "2026-08-18T16:00:00+08:00",
+    "dateRange": "报名截止：2026年8月18日 16:00",
     "location": "北京",
     "isOnline": true,
     "tags": [
@@ -192,19 +132,19 @@
       "报名",
       "医疗"
     ],
-    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260727_4792002.html",
+    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260810_4815662.html",
     "status": "upcoming",
     "description": "北京公开招聘公告，已解析报名截止时间。",
     "stage": "报名截止",
     "source": "北京市人力资源和社会保障局公开招聘",
     "type": "program",
-    "publishedAt": "2026-07-27"
+    "publishedAt": "2026-08-10"
   },
   {
-    "id": "civil-service-ddl-beijing-public-recruitment-7c3e56b1fa",
-    "title": "北京卫生职业学院公开招聘工作人员公告",
-    "deadline": "2026-08-03T23:59:00+08:00",
-    "dateRange": "报名截止：2026年8月3日 23:59",
+    "id": "civil-service-ddl-beijing-public-recruitment-eff632535f",
+    "title": "门头沟区卫生健康系统2026年下半年事业单位公开招聘卫生专业技术人员公告",
+    "deadline": "2026-08-19T17:00:00+08:00",
+    "dateRange": "报名截止：2026年8月19日 17:00",
     "location": "北京",
     "isOnline": true,
     "tags": [
@@ -213,19 +153,19 @@
       "报名",
       "医疗"
     ],
-    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260723_4781455.html",
+    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260810_4815640.html",
     "status": "upcoming",
     "description": "北京公开招聘公告，已解析报名截止时间。",
     "stage": "报名截止",
     "source": "北京市人力资源和社会保障局公开招聘",
     "type": "program",
-    "publishedAt": "2026-07-24"
+    "publishedAt": "2026-08-10"
   },
   {
-    "id": "civil-service-ddl-beijing-public-recruitment-d319806ead",
-    "title": "昌平区卫生健康委员会所属部分三级公立医院2026年面向社会公开招聘总会计师公告",
-    "deadline": "2026-08-06T23:59:00+08:00",
-    "dateRange": "报名截止：2026年8月6日 23:59",
+    "id": "civil-service-ddl-beijing-public-recruitment-d95de178d0",
+    "title": "北京市房山区卫生健康委员会所属事业单位2026年公开招聘应届毕业生（第二批）公告",
+    "deadline": "2026-08-18T16:00:00+08:00",
+    "dateRange": "报名截止：2026年8月18日 16:00",
     "location": "北京",
     "isOnline": true,
     "tags": [
@@ -234,19 +174,19 @@
       "报名",
       "医疗"
     ],
-    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260724_4783689.html",
+    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260807_4812706.html",
     "status": "upcoming",
     "description": "北京公开招聘公告，已解析报名截止时间。",
     "stage": "报名截止",
     "source": "北京市人力资源和社会保障局公开招聘",
     "type": "program",
-    "publishedAt": "2026-07-24"
+    "publishedAt": "2026-08-07"
   },
   {
-    "id": "civil-service-ddl-beijing-public-recruitment-3422e4ff69",
-    "title": "北京科技职业大学2026年公开招聘公告（第三批）",
-    "deadline": "2026-08-12T16:30:00+08:00",
-    "dateRange": "报名截止：2026年8月12日 16:30",
+    "id": "civil-service-ddl-beijing-public-recruitment-3d1002aabc",
+    "title": "北京工业大学2026年公开招聘公告（第二批）",
+    "deadline": "2026-08-28T17:00:00+08:00",
+    "dateRange": "报名截止：2026年8月28日 17:00",
     "location": "北京",
     "isOnline": true,
     "tags": [
@@ -254,40 +194,19 @@
       "招聘",
       "报名"
     ],
-    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260722_4777238.html",
+    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260807_4812675.html",
     "status": "upcoming",
     "description": "北京公开招聘公告，已解析报名截止时间。",
     "stage": "报名截止",
     "source": "北京市人力资源和社会保障局公开招聘",
     "type": "program",
-    "publishedAt": "2026-07-22"
+    "publishedAt": "2026-08-07"
   },
   {
-    "id": "civil-service-ddl-beijing-public-recruitment-02b7f300d1",
-    "title": "北京小汤山医院2026年公开招聘公告（第三批）",
-    "deadline": "2026-07-31T23:59:00+08:00",
-    "dateRange": "报名截止：2026年7月31日 23:59",
-    "location": "北京",
-    "isOnline": true,
-    "tags": [
-      "事业单位",
-      "招聘",
-      "报名",
-      "医疗"
-    ],
-    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260722_4777227.html",
-    "status": "ended",
-    "description": "北京公开招聘公告，已解析报名截止时间。",
-    "stage": "报名截止",
-    "source": "北京市人力资源和社会保障局公开招聘",
-    "type": "program",
-    "publishedAt": "2026-07-22"
-  },
-  {
-    "id": "civil-service-ddl-beijing-public-recruitment-b485b69198",
-    "title": "北京服装学院2026年高层次人才引进公告（第二批）",
-    "deadline": "2026-11-30T23:59:00+08:00",
-    "dateRange": "报名截止：2026年11月30日 23:59",
+    "id": "civil-service-ddl-beijing-public-recruitment-c2e2d074a6",
+    "title": "关于2026年度北京市第二次事业单位公开招聘工作人员统一考试的提示",
+    "deadline": "2026-08-14T17:00:00+08:00",
+    "dateRange": "报名截止：2026年8月14日 17:00",
     "location": "北京",
     "isOnline": true,
     "tags": [
@@ -295,19 +214,19 @@
       "招聘",
       "报名"
     ],
-    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260722_4777190.html",
+    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260806_4811635.html",
     "status": "upcoming",
     "description": "北京公开招聘公告，已解析报名截止时间。",
     "stage": "报名截止",
     "source": "北京市人力资源和社会保障局公开招聘",
     "type": "program",
-    "publishedAt": "2026-07-22"
+    "publishedAt": "2026-08-06"
   },
   {
-    "id": "civil-service-ddl-beijing-public-recruitment-61fcee5f50",
-    "title": "北京服装学院2026年公开招聘公告（第二批）",
-    "deadline": "2026-07-31T23:59:00+08:00",
-    "dateRange": "报名截止：2026年7月31日 23:59",
+    "id": "civil-service-ddl-beijing-public-recruitment-27c0077faf",
+    "title": "北京市体育局所属事业单位2026年下半年公开招聘工作人员公告",
+    "deadline": "2026-08-14T17:00:00+08:00",
+    "dateRange": "报名截止：2026年8月14日 17:00",
     "location": "北京",
     "isOnline": true,
     "tags": [
@@ -315,60 +234,19 @@
       "招聘",
       "报名"
     ],
-    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260722_4777150.html",
-    "status": "ended",
-    "description": "北京公开招聘公告，已解析报名截止时间。",
-    "stage": "报名截止",
-    "source": "北京市人力资源和社会保障局公开招聘",
-    "type": "program",
-    "publishedAt": "2026-07-22"
-  },
-  {
-    "id": "civil-service-ddl-beijing-public-recruitment-6c24ee297b",
-    "title": "北京市房山区燕山文化和卫生健康委员会所属事业单位2026年公开招聘工作人员公告",
-    "deadline": "2026-07-30T15:00:00+08:00",
-    "dateRange": "报名截止：2026年7月30日 15:00",
-    "location": "北京",
-    "isOnline": true,
-    "tags": [
-      "事业单位",
-      "招聘",
-      "报名",
-      "医疗"
-    ],
-    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260722_4777127.html",
-    "status": "ended",
-    "description": "北京公开招聘公告，已解析报名截止时间。",
-    "stage": "报名截止",
-    "source": "北京市人力资源和社会保障局公开招聘",
-    "type": "program",
-    "publishedAt": "2026-07-22"
-  },
-  {
-    "id": "civil-service-ddl-beijing-public-recruitment-e1986f0784",
-    "title": "北京联合大学2026年公开招聘工作人员（第二批）公告",
-    "deadline": "2026-08-20T23:59:00+08:00",
-    "dateRange": "报名截止：2026年8月20日 23:59",
-    "location": "北京",
-    "isOnline": true,
-    "tags": [
-      "事业单位",
-      "招聘",
-      "报名"
-    ],
-    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260722_4777110.html",
+    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260805_4809321.html",
     "status": "upcoming",
     "description": "北京公开招聘公告，已解析报名截止时间。",
     "stage": "报名截止",
     "source": "北京市人力资源和社会保障局公开招聘",
     "type": "program",
-    "publishedAt": "2026-07-22"
+    "publishedAt": "2026-08-05"
   },
   {
-    "id": "civil-service-ddl-beijing-public-recruitment-4f327ea0f6",
-    "title": "北京市体育局所属事业单位2026年下半年公开招聘教练员公告",
-    "deadline": "2026-07-29T23:59:00+08:00",
-    "dateRange": "报名截止：2026年7月29日 23:59",
+    "id": "civil-service-ddl-beijing-public-recruitment-b7fc448507",
+    "title": "门头沟区2026年下半年事业单位公开招聘工作人员公告",
+    "deadline": "2026-08-14T17:00:00+08:00",
+    "dateRange": "报名截止：2026年8月14日 17:00",
     "location": "北京",
     "isOnline": true,
     "tags": [
@@ -376,142 +254,19 @@
       "招聘",
       "报名"
     ],
-    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260721_4774395.html",
-    "status": "ended",
+    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260805_4809295.html",
+    "status": "upcoming",
     "description": "北京公开招聘公告，已解析报名截止时间。",
     "stage": "报名截止",
     "source": "北京市人力资源和社会保障局公开招聘",
     "type": "program",
-    "publishedAt": "2026-07-21"
+    "publishedAt": "2026-08-05"
   },
   {
-    "id": "civil-service-ddl-beijing-public-recruitment-580b0dd8dc",
-    "title": "首都医科大学附属北京中医医院公开招聘（第三批）公告",
-    "deadline": "2026-07-28T23:59:00+08:00",
-    "dateRange": "报名截止：2026年7月28日 23:59",
-    "location": "北京",
-    "isOnline": true,
-    "tags": [
-      "事业单位",
-      "招聘",
-      "报名",
-      "医疗"
-    ],
-    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260717_4768854.html",
-    "status": "ended",
-    "description": "北京公开招聘公告，已解析报名截止时间。",
-    "stage": "报名截止",
-    "source": "北京市人力资源和社会保障局公开招聘",
-    "type": "program",
-    "publishedAt": "2026-07-17"
-  },
-  {
-    "id": "civil-service-ddl-beijing-public-recruitment-9fb60475eb",
-    "title": "北京市中医药研究所公开招聘（第三批）公告",
-    "deadline": "2026-07-28T23:59:00+08:00",
-    "dateRange": "报名截止：2026年7月28日 23:59",
-    "location": "北京",
-    "isOnline": true,
-    "tags": [
-      "事业单位",
-      "招聘",
-      "报名"
-    ],
-    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260717_4768775.html",
-    "status": "ended",
-    "description": "北京公开招聘公告，已解析报名截止时间。",
-    "stage": "报名截止",
-    "source": "北京市人力资源和社会保障局公开招聘",
-    "type": "program",
-    "publishedAt": "2026-07-17"
-  },
-  {
-    "id": "civil-service-ddl-beijing-public-recruitment-da1393a0aa",
-    "title": "北京市延庆区卫生健康委所属事业单位2026年公开招聘医学定向生公告",
-    "deadline": "2026-07-28T17:00:00+08:00",
-    "dateRange": "报名截止：2026年7月28日 17:00",
-    "location": "北京",
-    "isOnline": true,
-    "tags": [
-      "事业单位",
-      "招聘",
-      "报名",
-      "医疗"
-    ],
-    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260716_4766500.html",
-    "status": "ended",
-    "description": "北京公开招聘公告，已解析报名截止时间。",
-    "stage": "报名截止",
-    "source": "北京市人力资源和社会保障局公开招聘",
-    "type": "program",
-    "publishedAt": "2026-07-16"
-  },
-  {
-    "id": "civil-service-ddl-beijing-public-recruitment-fb8e60ad8e",
-    "title": "中共北京市昌平区委党校2026年第二次公开招聘工作人员公告",
-    "deadline": "2026-07-24T17:00:00+08:00",
-    "dateRange": "报名截止：2026年7月24日 17:00",
-    "location": "北京",
-    "isOnline": true,
-    "tags": [
-      "事业单位",
-      "招聘",
-      "报名"
-    ],
-    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260715_4764448.html",
-    "status": "ended",
-    "description": "北京公开招聘公告，已解析报名截止时间。",
-    "stage": "报名截止",
-    "source": "北京市人力资源和社会保障局公开招聘",
-    "type": "program",
-    "publishedAt": "2026-07-15"
-  },
-  {
-    "id": "civil-service-ddl-beijing-public-recruitment-2600de6929",
-    "title": "首都师范大学2026年人才引进公告（第三批）",
-    "deadline": "2026-07-24T23:59:00+08:00",
-    "dateRange": "报名截止：2026年7月24日 23:59",
-    "location": "北京",
-    "isOnline": true,
-    "tags": [
-      "事业单位",
-      "招聘",
-      "报名"
-    ],
-    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260715_4764364.html",
-    "status": "ended",
-    "description": "北京公开招聘公告，已解析报名截止时间。",
-    "stage": "报名截止",
-    "source": "北京市人力资源和社会保障局公开招聘",
-    "type": "program",
-    "publishedAt": "2026-07-15"
-  },
-  {
-    "id": "civil-service-ddl-beijing-public-recruitment-31a45869fa",
-    "title": "首都医科大学宣武医院2026年人才引进公告",
-    "deadline": "2026-07-28T17:00:00+08:00",
-    "dateRange": "报名截止：2026年7月28日 17:00",
-    "location": "北京",
-    "isOnline": true,
-    "tags": [
-      "事业单位",
-      "招聘",
-      "报名",
-      "医疗"
-    ],
-    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260715_4764308.html",
-    "status": "ended",
-    "description": "北京公开招聘公告，已解析报名截止时间。",
-    "stage": "报名截止",
-    "source": "北京市人力资源和社会保障局公开招聘",
-    "type": "program",
-    "publishedAt": "2026-07-15"
-  },
-  {
-    "id": "civil-service-ddl-beijing-public-recruitment-bf9b64aa85",
-    "title": "北京学校2026年公开招聘高层次教育人才公告",
-    "deadline": "2026-07-24T17:00:00+08:00",
-    "dateRange": "报名截止：2026年7月24日 17:00",
+    "id": "civil-service-ddl-beijing-public-recruitment-f9ed798bac",
+    "title": "市委教育工委市教委所属事业单位2026年公开招聘工作人员公告（第二批次）",
+    "deadline": "2026-08-18T17:00:00+08:00",
+    "dateRange": "报名截止：2026年8月18日 17:00",
     "location": "北京",
     "isOnline": true,
     "tags": [
@@ -520,60 +275,101 @@
       "报名",
       "教师"
     ],
-    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260715_4764251.html",
-    "status": "ended",
+    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260804_4808172.html",
+    "status": "upcoming",
     "description": "北京公开招聘公告，已解析报名截止时间。",
     "stage": "报名截止",
     "source": "北京市人力资源和社会保障局公开招聘",
     "type": "program",
-    "publishedAt": "2026-07-15"
+    "publishedAt": "2026-08-04"
   },
   {
-    "id": "civil-service-ddl-beijing-public-recruitment-9fa28c06b2",
-    "title": "北京市朝阳区教育委员会所属事业单位2026年第一批人才引进公开招聘公告",
-    "deadline": "2026-07-24T23:59:00+08:00",
-    "dateRange": "报名截止：2026年7月24日 23:59",
+    "id": "civil-service-ddl-beijing-public-recruitment-4e4816cb33",
+    "title": "北京市房山区2026年下半年事业单位公开招聘公告",
+    "deadline": "2026-08-14T17:00:00+08:00",
+    "dateRange": "报名截止：2026年8月14日 17:00",
+    "location": "北京",
+    "isOnline": true,
+    "tags": [
+      "事业单位",
+      "招聘",
+      "报名"
+    ],
+    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260804_4808137.html",
+    "status": "upcoming",
+    "description": "北京公开招聘公告，已解析报名截止时间。",
+    "stage": "报名截止",
+    "source": "北京市人力资源和社会保障局公开招聘",
+    "type": "program",
+    "publishedAt": "2026-08-04"
+  },
+  {
+    "id": "civil-service-ddl-beijing-public-recruitment-c33cf1e485",
+    "title": "北京市人民检察院所属事业单位2026年下半年公开招聘工作人员公告",
+    "deadline": "2026-08-14T17:00:00+08:00",
+    "dateRange": "报名截止：2026年8月14日 17:00",
+    "location": "北京",
+    "isOnline": true,
+    "tags": [
+      "事业单位",
+      "招聘",
+      "报名"
+    ],
+    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260804_4808125.html",
+    "status": "upcoming",
+    "description": "北京公开招聘公告，已解析报名截止时间。",
+    "stage": "报名截止",
+    "source": "北京市人力资源和社会保障局公开招聘",
+    "type": "program",
+    "publishedAt": "2026-08-04"
+  },
+  {
+    "id": "civil-service-ddl-beijing-public-recruitment-57f46ad9a1",
+    "title": "首都医科大学附属北京天坛医院2026年公开招聘工作人员公告",
+    "deadline": "2026-08-21T23:59:00+08:00",
+    "dateRange": "报名截止：2026年8月21日 23:59",
     "location": "北京",
     "isOnline": true,
     "tags": [
       "事业单位",
       "招聘",
       "报名",
-      "教师"
+      "医疗"
     ],
-    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260715_4763528.html",
-    "status": "ended",
-    "description": "北京公开招聘公告，已解析报名截止时间。",
-    "stage": "报名截止",
-    "source": "北京市人力资源和社会保障局公开招聘",
-    "type": "program",
-    "publishedAt": "2026-07-15"
-  },
-  {
-    "id": "civil-service-ddl-beijing-public-recruitment-b9db4a0a03",
-    "title": "北京市文物局局属事业单位2026年第二批公开招聘工作人员公告",
-    "deadline": "2026-08-10T23:59:00+08:00",
-    "dateRange": "报名截止：2026年8月10日 23:59",
-    "location": "北京",
-    "isOnline": true,
-    "tags": [
-      "事业单位",
-      "招聘",
-      "报名"
-    ],
-    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260713_4759939.html",
+    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260804_4807521.html",
     "status": "upcoming",
     "description": "北京公开招聘公告，已解析报名截止时间。",
     "stage": "报名截止",
     "source": "北京市人力资源和社会保障局公开招聘",
     "type": "program",
-    "publishedAt": "2026-07-13"
+    "publishedAt": "2026-08-04"
   },
   {
-    "id": "civil-service-ddl-beijing-public-recruitment-4606cc1489",
-    "title": "北京市知识产权局所属事业单位2026年下半年公开招聘工作人员公告",
-    "deadline": "2026-07-31T17:00:00+08:00",
-    "dateRange": "报名截止：2026年7月31日 17:00",
+    "id": "civil-service-ddl-beijing-public-recruitment-3d876bc751",
+    "title": "首都医科大学附属北京回龙观医院公开招聘公告（第三批）",
+    "deadline": "2026-08-21T23:59:00+08:00",
+    "dateRange": "报名截止：2026年8月21日 23:59",
+    "location": "北京",
+    "isOnline": true,
+    "tags": [
+      "事业单位",
+      "招聘",
+      "报名",
+      "医疗"
+    ],
+    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260803_4806021.html",
+    "status": "upcoming",
+    "description": "北京公开招聘公告，已解析报名截止时间。",
+    "stage": "报名截止",
+    "source": "北京市人力资源和社会保障局公开招聘",
+    "type": "program",
+    "publishedAt": "2026-08-03"
+  },
+  {
+    "id": "civil-service-ddl-beijing-public-recruitment-88fe8cbd24",
+    "title": "北京工业大学2026年人才引进公告（第四批）",
+    "deadline": "2026-08-11T23:59:00+08:00",
+    "dateRange": "报名截止：2026年8月11日 23:59",
     "location": "北京",
     "isOnline": true,
     "tags": [
@@ -581,12 +377,32 @@
       "招聘",
       "报名"
     ],
-    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202607/t20260713_4759831.html",
-    "status": "ended",
+    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260803_4805820.html",
+    "status": "upcoming",
     "description": "北京公开招聘公告，已解析报名截止时间。",
     "stage": "报名截止",
     "source": "北京市人力资源和社会保障局公开招聘",
     "type": "program",
-    "publishedAt": "2026-07-13"
+    "publishedAt": "2026-08-03"
+  },
+  {
+    "id": "civil-service-ddl-beijing-public-recruitment-6b30310aac",
+    "title": "首都经济贸易大学2026年人才引进公告（第一批）",
+    "deadline": "2026-08-11T11:00:00+08:00",
+    "dateRange": "报名截止：2026年8月11日 11:00",
+    "location": "北京",
+    "isOnline": true,
+    "tags": [
+      "事业单位",
+      "招聘",
+      "报名"
+    ],
+    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260803_4805763.html",
+    "status": "upcoming",
+    "description": "北京公开招聘公告，已解析报名截止时间。",
+    "stage": "报名截止",
+    "source": "北京市人力资源和社会保障局公开招聘",
+    "type": "program",
+    "publishedAt": "2026-08-03"
   }
 ]
