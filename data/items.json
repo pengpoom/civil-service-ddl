@@ -120,6 +120,48 @@
     "isDatePlaceholder": true
   },
   {
+    "id": "civil-service-ddl-beijing-public-recruitment-52cc57cf7d",
+    "title": "北京清华长庚医院 2026 年度第四批公开招聘公告",
+    "deadline": "2026-09-15T23:59:00+08:00",
+    "dateRange": "报名截止：2026年9月15日 23:59",
+    "location": "北京",
+    "isOnline": true,
+    "tags": [
+      "事业单位",
+      "招聘",
+      "报名",
+      "医疗"
+    ],
+    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202609/t20260903_4848731.html",
+    "status": "upcoming",
+    "description": "北京公开招聘公告，已解析报名截止时间。",
+    "stage": "报名截止",
+    "source": "北京市人力资源和社会保障局公开招聘",
+    "type": "program",
+    "publishedAt": "2026-09-03"
+  },
+  {
+    "id": "civil-service-ddl-beijing-public-recruitment-61096352d7",
+    "title": "北京第三实验学校2026年第三批公开招聘公告",
+    "deadline": "2026-09-10T17:00:00+08:00",
+    "dateRange": "报名截止：2026年9月10日 17:00",
+    "location": "北京",
+    "isOnline": true,
+    "tags": [
+      "事业单位",
+      "招聘",
+      "报名",
+      "教师"
+    ],
+    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202609/t20260901_4845553.html",
+    "status": "upcoming",
+    "description": "北京公开招聘公告，已解析报名截止时间。",
+    "stage": "报名截止",
+    "source": "北京市人力资源和社会保障局公开招聘",
+    "type": "program",
+    "publishedAt": "2026-09-02"
+  },
+  {
     "id": "civil-service-ddl-beijing-public-recruitment-331e2629f4",
     "title": "首都医科大学附属北京世纪坛医院2026年公开招聘高层次人才（第二批）公告",
     "deadline": "2026-09-09T23:59:00+08:00",
@@ -175,7 +217,7 @@
       "教师"
     ],
     "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260827_4839062.html",
-    "status": "upcoming",
+    "status": "ended",
     "description": "北京公开招聘公告，已解析报名截止时间。",
     "stage": "报名截止",
     "source": "北京市人力资源和社会保障局公开招聘",
@@ -196,7 +238,7 @@
       "教师"
     ],
     "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260825_4835587.html",
-    "status": "upcoming",
+    "status": "ended",
     "description": "北京公开招聘公告，已解析报名截止时间。",
     "stage": "报名截止",
     "source": "北京市人力资源和社会保障局公开招聘",
@@ -238,7 +280,7 @@
       "医疗"
     ],
     "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260824_4834648.html",
-    "status": "upcoming",
+    "status": "ended",
     "description": "北京公开招聘公告，已解析报名截止时间。",
     "stage": "报名截止",
     "source": "北京市人力资源和社会保障局公开招聘",
@@ -259,7 +301,7 @@
       "医疗"
     ],
     "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260821_4831251.html",
-    "status": "upcoming",
+    "status": "ended",
     "description": "北京公开招聘公告，已解析报名截止时间。",
     "stage": "报名截止",
     "source": "北京市人力资源和社会保障局公开招聘",
@@ -279,7 +321,7 @@
       "报名"
     ],
     "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260818_4827546.html",
-    "status": "upcoming",
+    "status": "ended",
     "description": "北京公开招聘公告，已解析报名截止时间。",
     "stage": "报名截止",
     "source": "北京市人力资源和社会保障局公开招聘",
@@ -492,46 +534,5 @@
     "source": "北京市人力资源和社会保障局公开招聘",
     "type": "program",
     "publishedAt": "2026-08-10"
-  },
-  {
-    "id": "civil-service-ddl-beijing-public-recruitment-d95de178d0",
-    "title": "北京市房山区卫生健康委员会所属事业单位2026年公开招聘应届毕业生（第二批）公告",
-    "deadline": "2026-08-18T16:00:00+08:00",
-    "dateRange": "报名截止：2026年8月18日 16:00",
-    "location": "北京",
-    "isOnline": true,
-    "tags": [
-      "事业单位",
-      "招聘",
-      "报名",
-      "医疗"
-    ],
-    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260807_4812706.html",
-    "status": "ended",
-    "description": "北京公开招聘公告，已解析报名截止时间。",
-    "stage": "报名截止",
-    "source": "北京市人力资源和社会保障局公开招聘",
-    "type": "program",
-    "publishedAt": "2026-08-07"
-  },
-  {
-    "id": "civil-service-ddl-beijing-public-recruitment-3d1002aabc",
-    "title": "北京工业大学2026年公开招聘公告（第二批）",
-    "deadline": "2026-08-28T17:00:00+08:00",
-    "dateRange": "报名截止：2026年8月28日 17:00",
-    "location": "北京",
-    "isOnline": true,
-    "tags": [
-      "事业单位",
-      "招聘",
-      "报名"
-    ],
-    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202608/t20260807_4812675.html",
-    "status": "ended",
-    "description": "北京公开招聘公告，已解析报名截止时间。",
-    "stage": "报名截止",
-    "source": "北京市人力资源和社会保障局公开招聘",
-    "type": "program",
-    "publishedAt": "2026-08-07"
   }
 ]
