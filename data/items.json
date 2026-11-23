@@ -120,6 +120,26 @@
     "isDatePlaceholder": true
   },
   {
+    "id": "civil-service-ddl-beijing-public-recruitment-f2c7a262b8",
+    "title": "北京建筑大学2026年第三批公开招聘公告",
+    "deadline": "2026-11-26T23:59:00+08:00",
+    "dateRange": "报名截止：2026年11月26日 23:59",
+    "location": "北京",
+    "isOnline": true,
+    "tags": [
+      "事业单位",
+      "招聘",
+      "报名"
+    ],
+    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202611/t20261117_4949161.html",
+    "status": "upcoming",
+    "description": "北京公开招聘公告，已解析报名截止时间。",
+    "stage": "报名截止",
+    "source": "北京市人力资源和社会保障局公开招聘",
+    "type": "program",
+    "publishedAt": "2026-11-17"
+  },
+  {
     "id": "civil-service-ddl-beijing-public-recruitment-728941a127",
     "title": "2026年石景山区卫生健康委所属事业单位下半年公开招聘工作人员公告",
     "deadline": "2026-11-24T16:00:00+08:00",
@@ -481,47 +501,6 @@
       "医疗"
     ],
     "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202610/t20261009_4894397.html",
-    "status": "ended",
-    "description": "北京公开招聘公告，已解析报名截止时间。",
-    "stage": "报名截止",
-    "source": "北京市人力资源和社会保障局公开招聘",
-    "type": "program",
-    "publishedAt": "2026-10-09"
-  },
-  {
-    "id": "civil-service-ddl-beijing-public-recruitment-603e69ac86",
-    "title": "首都医科大学附属北京胸科医院2026年公开招聘公告（第四批）",
-    "deadline": "2026-10-19T23:59:00+08:00",
-    "dateRange": "报名截止：2026年10月19日 23:59",
-    "location": "北京",
-    "isOnline": true,
-    "tags": [
-      "事业单位",
-      "招聘",
-      "报名",
-      "医疗"
-    ],
-    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202610/t20261009_4894342.html",
-    "status": "ended",
-    "description": "北京公开招聘公告，已解析报名截止时间。",
-    "stage": "报名截止",
-    "source": "北京市人力资源和社会保障局公开招聘",
-    "type": "program",
-    "publishedAt": "2026-10-09"
-  },
-  {
-    "id": "civil-service-ddl-beijing-public-recruitment-d35b743602",
-    "title": "北京市结核病胸部肿瘤研究所2026年公开招聘公告（第三批）",
-    "deadline": "2026-10-19T23:59:00+08:00",
-    "dateRange": "报名截止：2026年10月19日 23:59",
-    "location": "北京",
-    "isOnline": true,
-    "tags": [
-      "事业单位",
-      "招聘",
-      "报名"
-    ],
-    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202610/t20261009_4894075.html",
     "status": "ended",
     "description": "北京公开招聘公告，已解析报名截止时间。",
     "stage": "报名截止",
